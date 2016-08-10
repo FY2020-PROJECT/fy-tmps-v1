@@ -1,0 +1,476 @@
+A:link{
+	text-decoration:none; 
+}
+A:visited{
+	text-decoration:none;
+}
+A:hover {
+	text-decoration:none;
+} 
+li {
+	list-style-type:none;
+}
+
+html,body{
+	height:100%; 
+	width:100%; 
+	padding:0; 
+	margin:0;
+}
+.nav {
+	padding-top:1px;
+}
+#nav li{
+    float: left;
+    margin: 0 .5em 0 1em;
+}
+#nav a{
+    background: #ddd;
+    padding: .7em 1em;
+    float: left;
+    color: #000;
+	font-family:"Microsoft YaHei UI";
+    position: relative;
+}
+#nav a:hover{
+    background: #abe0ef;
+}
+#nav a::before,
+#nav a::after{
+    content:'';
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    width: 1em;
+    background: #ddd;
+    transform: skew(-10deg);
+}
+#nav a::before{
+    left: -.5em;
+    border-radius: 5px 0 0 5px;
+}
+#nav a:hover::before{
+    background: #abe0ef;
+}
+#nav a::after{
+    right: -.5em;
+    border-radius: 0 5px 5px 0;
+}
+#nav a:hover::after{
+    background: #abe0ef;
+}
+
+.top {
+	background:url(../images/background.png) no-repeat center top;
+	background-size: cover; 
+	width:100%; 
+	height:100%; 
+	margin:0; 
+	padding:0; 
+}
+.floater{  
+    float:left; 
+	height:50%; 
+	margin-bottom: -150px; 
+}
+.top_word {
+	margin-left:auto; 
+	margin-right:auto; 
+	clear:both; 
+	height: 300px; 
+	position: relative; 
+	text-align:center;
+}
+
+.w1{
+	font-size:300%; 
+	color:#000;
+	font-family:"黑体";
+	font-weight:bold;
+}
+.w1:hover{
+	color:#FFF;
+}
+.w2{
+	font-size:150%;
+	color: #444;
+	font-family:"Microsoft JhengHei Light";
+	font-weight:bold;
+}
+.w3{
+	font-size:200%;
+	font-family:"Microsoft JhengHei Light";
+	color:#FFF;
+	font-weight:bold;
+}
+.w4{
+	font-size:300%;
+	font-family:"黑体";
+	color:#000;
+	font-weight:bold;
+	}
+.w4:hover{
+	color:#FFF;
+}
+.w5{
+	font-size:200%;
+	color: #F0F0F0;
+	font-family:"Microsoft JhengHei Light";
+	font-weight:bold;
+}
+.next {
+	height:50px; 
+	text-align:center;
+}
+.aboutus {
+	width:150px; 
+	height:50px; 
+	margin-left:auto; 
+	margin-right:auto; 
+	border:2px solid #000; 
+	display:block;
+}
+.aboutus span {
+	width:150px;
+	height:50px;
+	color:#000;
+	font-size:180%;
+	line-height:50px;
+	font-family:"黑体";
+	display:block;
+}
+.aboutus span:hover{
+	color:#FFF;
+	background-color:#000;
+}
+
+.intro {
+	width:100%;
+	height:auto;
+	margin-bottom:50px; 
+}
+.title{
+	margin-top:50px;
+}
+.detail{
+	margin-top:10px;
+	font-size:100%;
+	font-family:"Microsoft JhengHei Light";
+}
+
+.blk_18 { 
+    overflow:hidden; 
+	zoom:1; 
+	font-size:9pt; 
+	width:100%; 
+	margin-top:8px; 
+	text-align:center; 
+}
+.blk_18 .pcont { 
+    width:100%; 
+	float:left; 
+	overflow:hidden; 
+	padding-left:5px; 
+}
+.blk_18 .ScrCont { 
+    width:32766px; zoom:1; 
+	margin-left:-5px; 
+}
+.blk_18 #List1_1, .blk_18 #List2_1 { 
+    float:left; 
+}
+
+.botton { 
+    padding-top:20px; 
+	display:table-cell; 
+	vertical-align:middle; 
+}
+.LeftBotton { 
+    width:50px; 
+	height:50px; 
+	float:left; 
+	background:url(../images/left.jpg) no-repeat; 
+	margin-right:10px; 
+}
+.RightBotton { 
+    width:50px; 
+	height:50px; 
+	float:left; 
+	background:url(../images/right.jpg) no-repeat; 
+	margin-left:10px; 
+}
+.blk_18 .pl { 
+    width:220px; 
+	height:310px; 
+	float:left; 
+	text-align:center;
+}
+.introduce { 
+    display:block; 
+	cursor:pointer; 
+	border:none; 
+	margin:6px auto 1px auto; 
+	height:300px; 
+	width:200px; 
+	background:url(../images/member4.jpg) no-repeat; 
+	text-align:center; 
+	padding-top:20px;
+}
+.name{
+	color:#000;
+	font-size:200%;
+	font-family:"楷体";
+	margin-top:30px;
+}
+.motto{
+	color: #000;
+	font-size:14px;
+	font-family:"Microsoft JhengHei UI Light";
+	margin-top:20px;
+	text-align:left;
+	padding-left:20px;
+	padding-right:20px;
+	line-height:20px;
+}
+.pl_web{
+	margin-right:8px;
+}
+.pl_microblog{
+	margin-left:8px;
+}
+.endword1 {
+	clear:both;
+	text-align:center;
+	font-size:150%;
+	color: #666;
+	font-family:"Microsoft JhengHei UI Light";
+	padding-top:60px;
+}
+.introsbefore{
+	overflow:hidden;
+	clear:both;
+	margin-top:50px;
+	padding-bottom:50px;
+}
+.test{ 
+    display:block;
+	overflow:hidden; 
+}
+
+#control {
+	height:50px; 
+	text-align:center;
+	margin-top:30px;
+}
+#control a {
+	width:100px; 
+	height:50px; 
+	margin-left:auto; 
+	margin-right:auto; 
+	border:2px solid #000;
+	color:#000;
+	font-size:150%;
+	line-height:50px;
+	font-family:"黑体"; 
+	display:block;
+}
+
+#control a:hover{
+	color:#FFF;
+	background-color:#000;
+}
+
+.tec {
+	margin-top:30px;
+	float:left;
+	position:relative;
+	left:50%;
+}
+.tec_line_l1{
+	height:300px;
+	margin:0 auto;
+	float:left;
+	position:relative;
+	left:-50%;
+}
+.tec_line_m1{
+	background:url(../images/background2.jpg) no-repeat center top;
+	background-size: cover; 
+	padding-top:30px;
+	float:left;
+	height:200px;
+	width:300px;
+	margin-left:20px;
+	margin-right:20px;
+	border:#CCC solid 1px;
+}
+
+.tec_line_m2{
+	background:url(../images/background2.jpg) no-repeat center top;
+	background-size: cover; 
+	padding-top:30px;
+	float:left;
+	height:200px;
+	width:300px;
+	margin-left:20px;
+	margin-right:20px;
+	border:#CCC solid 1px;
+}
+
+.tec_line_m3{
+	background:url(../images/background2.jpg) no-repeat center top;
+	background-size: cover; 
+	padding-top:30px;
+	float:left;
+	height:200px;
+	width:300px;
+	margin-left:20px;
+	margin-right:20px;
+	border:#CCC solid 1px;
+}
+
+.tec_pic {
+	float:left;
+	margin-left:10px;
+	display:table-cell; 
+	vertical-align:middle; 
+}
+.tec_infor{
+	float:left;
+	margin-left:10px;
+	width:180px;
+}
+
+.tec_name{
+	color:#000;
+	font-size:150%;
+	font-family:"楷体";
+	margin-top:30px;
+	width:150px;
+}
+.tec_motto{
+	color: #333;
+	font-size:14px;
+	font-family:"Microsoft JhengHei UI Light";
+	padding-top:20px;
+	width:150px;
+	line-height:30px;
+	text-align:left;
+	padding-left:20px;
+	padding-right:20px;
+}
+.tec_motto_1 {	
+    color: #333;
+	font-size:12px;
+	font-family:"Microsoft JhengHei UI Light";
+	padding-top:20px;
+	width:150px;
+	line-height:30px;
+	text-align:left;
+	padding-left:20px;
+	padding-right:20px;
+}
+.web{
+	margin-right:8px;
+}
+.microblog{
+	margin-left:8px;
+}
+.endword2 {
+	clear:both;
+	text-align:center;
+	font-size:150%;
+	color: #666;
+	font-family:"Microsoft JhengHei UI Light";
+	padding-top:20px;
+}
+
+.contactus {
+	margin-top:50px;
+	width:100%;
+	height:550px;
+}
+.contact_matter {
+	background:url(../images/contact1.png) no-repeat;
+	width:980px;
+	height:350px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:-20px;	
+}
+.contact_pic{
+	height:130px;
+	width:650px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:150px;
+}
+
+.contact_pic1 a span {
+	height:130px;
+	width:130px;
+	background:url(../images/contact2.png) no-repeat;
+	float:left;
+	margin-left:32px;
+	padding-top:30px;
+	text-align:center;
+	font-family:"黑体";
+	font-size:150%;
+	line-height:35px;
+	color: #006;
+	font-weight:500;
+}
+.contact_pic1 a span:hover {
+	background:url(../images/contact4.png) no-repeat;
+	color: #000;
+}
+.contact_pic2 a span {
+	height:130px;
+	width:130px;
+	background:url(../images/contact3.png) no-repeat;
+	margin-left:102px;
+	float:left;
+	padding-top:30px;
+	text-align:center;
+	font-family:"黑体";
+	font-size:150%;
+	line-height:35px;
+	color: #FFF;
+	font-weight:500;
+}
+.contact_pic2 a span:hover {
+	background:url(../images/contact5.png) no-repeat;
+	color: #000;
+}
+.contact_pic3 a span {
+	height:130px;
+	width:130px;
+	background:url(../images/contact2.png) no-repeat;
+	float:left;
+	margin-left:105px;
+	padding-top:30px;
+	text-align:center;
+	font-family:"黑体";
+	font-size:150%;
+	line-height:35px;
+	color: #006;
+	font-weight:500;
+}
+.contact_pic3 a span:hover {
+	background:url(../images/contact4.png) no-repeat;
+	color: #000;
+}
+
+.returntop a span {  
+    background:url(../images/returntop1.png) no-repeat ; 
+	display:inline-block; 
+	width:60px; 
+	height:80px; 
+	position:fixed; 
+	right:10px; 
+	bottom:10px; 
+	float:right;
+}
+.returntop a span:hover {
+	background:url(../images/returntop2.png) no-repeat ;
+}
