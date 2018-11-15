@@ -4,7 +4,7 @@
 
 技术员页面 v2
  
-## Useage
+## Usage
 
 只需要更新两个 json
 
